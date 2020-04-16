@@ -8,3 +8,5 @@ The data organization is complext, but using the stata do files should be able t
 For Understanding Society data [(SN: 6614)](https://beta.ukdataservice.ac.uk/datacatalogue/studies/study?id=6614) only, since 2009, then. 
 
 Set up your own working directory, then replace it at the top of each do file.
+
+These do files include pool individual and household levels data and combine them together. You can easily add or remove new variables that you are interested. Just run the do files in sequences as indicated by the names 0.., 1..., 2...
