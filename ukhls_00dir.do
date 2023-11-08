@@ -1,31 +1,25 @@
-*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-*Common Do File *Study Number: 6614
-*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+*Common Do File for BHPS and Understanding Society Work-Harmonized BHPS&UnSoc
+*Study Number: 6931-special license data including month of birth
+*Study number: 6614 - not special license 
+*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 *Author: Muzhi ZHOU
 *file path directory:
  
-*File directory
+*Path for Working through One Drive:
 
-*Set up file folders named as: do, pics, and workdata
-* to save do files, generated stata graphs, and work data
-
- global RawData    "D:\Academia\Data\UKHLS\RawData\UKDA-6614-stata\stata\stata11_se"
- //latest understanding society data
+ global RawDataUnS   D:\Data\UnderstandingSociety\UKDA-6614-stata\stata\stata13_se\ukhls
  
- global WorkData $onedrive/workdata
+ global RawDataBHPS   D:\Data\UnderstandingSociety\UKDA-6614-stata\stata\stata13_se\bhps
  
- ****************************************************
-/*
-*add programs
+ global RawDataBHPSfam   E:\Academia\Data\BHPS\UKDA-5629-stata8_maricohafertihistory\stata8 
+						//family history for BHPS
+						
+ *global RawDataSL   E:\Academia\Data\UKHLS\RawData\UKDA-6931-stata\stata\stata13_se
 
-ssc install grstyle
-ssc install kdens
-ssc install moremata
-ssc install coefplot
-ssc install grc1leg
-ssc install center 
-ssc install esttab 
-ssc install xtfeis
-
-*/
+		
+ global Output    D:\Data\UnderstandingSociety\Output
+ global Do        C:\Users\muzhi\OneDrive - HKUST\OD-Ox\Academia\DataDo\UKHLS_do\Stata_2023
+ global WorkData  D:\Data\UnderstandingSociety/WorkData
+ 
