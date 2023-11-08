@@ -1,5 +1,5 @@
 # ukhls_cleanpool
-using STATA to clean and pool UKHLS data from 2009 wave
+using STATA to clean and pool BHPS1991 (18 waves) and after and Understanding Society 2009 (up to now 12 waves) and after wave
 
 UKHLS data are a high-quality data with large sample size. 
 
