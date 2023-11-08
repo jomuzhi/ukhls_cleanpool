@@ -8,8 +8,8 @@
 *Wave 1 to X from Understanding Society
 *Income&Financial - Gross and Net Personal Income; Gross and Net Labor Income
 **********************************
-global ind "ivfio pid pidp sppid ppid hid doiy agedv istrtdatm  jbstat qfhigh qfhigh* hiqual* mastat jbhas jboff jbftdv jbsemp jbhrs jshrs jbot jbmngr fimn*   payn* paynu* fimngrs* fimnlabgrs* fimnnet* fimnlabnet* *xw nchilddv rach16dv gordv strata psu sf1 health ccare sclf* *dv jbisco88 jlisco88 netuse julk4x3" 
-
+global ind "ivfio pid pidp sppid ppid hid doiy agedv istrtdatm  strata psu" 
+//Add your own variable of Interest
 global indodd "scop* "
 
 use "$WorkData\1_indresp.dta", clear 
